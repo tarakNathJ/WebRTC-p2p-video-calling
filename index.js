@@ -2,7 +2,7 @@ import { WebSocket, WebSocketServer } from 'ws';
 import express from 'express';
 const app = express();
 const server = app.listen(8080, () => {
-  console.log("server start 4000 port")
+  console.log("server start 8080 port")
 });
 
 const wss = new WebSocketServer({ server: server });
